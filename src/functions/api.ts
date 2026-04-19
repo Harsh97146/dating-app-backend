@@ -1,6 +1,6 @@
 import serverless from 'serverless-http';
-import app from '../../src/app.ts';
-import connectDB from '../../src/config/db.ts';
+import app from '../app.ts';
+import connectDB from '../config/db.ts';
 
 // Connect to DB (cached connection)
 let cachedDB: any = null;
